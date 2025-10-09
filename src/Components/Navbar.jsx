@@ -1,5 +1,4 @@
-import React from "react";
-import { Link, NavLink } from "react-router";
+import { NavLink } from "react-router";
 import { TbBrandGithubFilled } from "react-icons/tb";
 
 const Navbar = () => {
@@ -30,7 +29,7 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <NavLink to="/home">Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
                 <NavLink to="/apps">Apps</NavLink>
@@ -40,10 +39,10 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link to="/home" className="btn btn-ghost text-xl text-purple-600">
+          <NavLink to="/" className="btn btn-ghost text-xl text-purple-600">
             <img className="w-10 h-10" src="/logo.png" alt="LOGO" />
             HERO.IO
-          </Link>
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

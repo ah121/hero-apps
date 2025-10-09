@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hero = () => {
   return (
     <div className="flex justify-center pt-10 bg-base-200">

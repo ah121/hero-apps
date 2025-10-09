@@ -8,6 +8,7 @@ const useAppLogic = () => {
   const { apps, loading } = useApps();
   const [isInstalled, setIsInstalled] = useState(false);
   const app = apps.find((a) => a.id === Number(id));
+  const appExists = !!app;
   const {
     image,
     title,
@@ -51,7 +52,7 @@ const useAppLogic = () => {
 
     localStorage.setItem("installedApp", JSON.stringify(updatedAppList));
     setIsInstalled(true);
-    toast.success(`'${title}' has been successfully installed!`);
+    toast.success(`'${title}' has been successfully Installed!`);
   };
 
   return {
@@ -68,6 +69,7 @@ const useAppLogic = () => {
     chartData,
     isInstalled,
     installApp,
+    appExists,
   };
 };
 

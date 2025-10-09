@@ -5,13 +5,13 @@ import Install from "../Pages/Install";
 import MainLayout from "../Layouts/MainLayout";
 import ErrorPage from "../Pages/ErrorPage";
 import AppDetail from "../Pages/AppDetail";
+import Spinner from "../Components/Spinner";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
-    errorElement: <ErrorPage />,
-    hydrateFallbackElement: <p>Hi.....</p>,
+    hydrateFallbackElement: <Spinner />,
     children: [
       {
         index: true,
@@ -32,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/apps/:id",
         element: <AppDetail />,
+      },
+      {
+        path: "*",
+        element: <ErrorPage />,
       },
     ],
   },

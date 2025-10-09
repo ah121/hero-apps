@@ -8,6 +8,7 @@ import {
 } from "recharts";
 import { Bounce, ToastContainer } from "react-toastify";
 import useAppLogic from "../Hook/useAppLogic";
+import { useNavigate } from "react-router";
 const AppDetail = () => {
   const {
     image,
@@ -22,8 +23,12 @@ const AppDetail = () => {
     isInstalled,
     installApp,
     loading,
+    appExists,
   } = useAppLogic();
-
+  const navigate = useNavigate();
+  if (!loading && appExists === false) {
+    navigate("/error");
+  }
   return (
     <div className="bg-base-200">
       <div className="max-w-[1440px] mx-auto p-3">
@@ -124,7 +129,7 @@ const AppDetail = () => {
       </div>
       <ToastContainer
         position="top-center"
-        autoClose={4000}
+        autoClose={2000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick={false}

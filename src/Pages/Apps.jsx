@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import useApps from "../Hook/useApps";
 import SingleCard from "../Components/SingleCard";
-
+import Spinner from "../Components/Spinner";
 const Apps = () => {
   const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
@@ -11,16 +11,22 @@ const Apps = () => {
         app.title.toLocaleLowerCase().includes(convertSearch)
       )
     : apps;
+  if (loading) {
+    return <Spinner />;
+  }
   if (searchedApps.length === 0) {
     return (
       <div>
         <div className="flex flex-col justify-center items-center h-screen">
-          <h2 className="text-2xl font-bold mb-5">No Applications Found</h2>
+          <figure>
+            <img src="/error-404.png" alt="Error" />
+          </figure>
+          <h2 className="text-2xl font-bold mb-5">Oops, Apps not found!</h2>
           <button
             onClick={() => setSearch("")}
             className="btn bg-gradient-to-r from-purple-600 to-purple-500 text-white"
           >
-            Show All App
+            Go Back
           </button>
         </div>
       </div>
@@ -70,11 +76,15 @@ const Apps = () => {
             </label>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4 py-10">
-          {searchedApps.map((app) => (
-            <SingleCard app={app} key={app.id} />
-          ))}
-        </div>
+        {loading ? (
+          <Spinner />
+        ) : (
+          <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4 py-10">
+            {searchedApps.map((app) => (
+              <SingleCard app={app} key={app.id} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
