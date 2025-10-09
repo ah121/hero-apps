@@ -1,12 +1,14 @@
-import { Link, useParams } from "react-router";
-import useApps from "../Hook/useApps";
-import { BarChart } from "recharts";
-import { Bar, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-
+import {
+  BarChart,
+  Bar,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
+import { Bounce, ToastContainer } from "react-toastify";
+import useAppLogic from "../Hook/useAppLogic";
 const AppDetail = () => {
-  const { id } = useParams();
-  const { apps, loading } = useApps();
-  const app = apps.find((a) => a.id === Number(id));
   const {
     image,
     title,
@@ -16,12 +18,15 @@ const AppDetail = () => {
     reviews,
     ratingAvg,
     downloads,
-    ratings,
-  } = app || {};
-  const chartData = ratings ? [...ratings].reverse() : [];
+    chartData,
+    isInstalled,
+    installApp,
+    loading,
+  } = useAppLogic();
+
   return (
     <div className="bg-base-200">
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-[1440px] mx-auto p-3">
         <div className="flex flex-col md:flex-row items-center gap-5 py-5 border-b-2 border-gray-200">
           <figure>
             <img
@@ -31,14 +36,14 @@ const AppDetail = () => {
             />
           </figure>
           <div className="w-full">
-            <div className="border-b-2 border-gray-200 space-y-3">
+            <div className="border-b-2 border-gray-200 space-y-3 text-center md:text-left">
               <h1 className="font-bold text-4xl">{title}</h1>
               <p className="pb-4">
                 Developed by{" "}
                 <span className="text-purple-600">{companyName}</span>
               </p>
             </div>
-            <div className="flex gap-10 pt-8">
+            <div className="flex justify-center md:justify-start gap-3 md:gap-10 pt-8">
               <div className="flex flex-col gap-2">
                 <span>
                   <img
@@ -47,8 +52,10 @@ const AppDetail = () => {
                     className="w-10 h-10 mr-2"
                   />
                 </span>
-                <span>Downloads</span>
-                <span className="font-extrabold text-4xl">{downloads}</span>
+                <span className="text-sm sm:text-base">Downloads</span>
+                <span className="font-extrabold text-2xl md:text-4xl">
+                  {downloads}
+                </span>
               </div>
               <div className="flex flex-col gap-2">
                 <span>
@@ -58,8 +65,12 @@ const AppDetail = () => {
                     className="w-10 h-10 mr-2"
                   />
                 </span>
-                <span>Average Rating</span>
-                <span className="font-extrabold text-4xl">{ratingAvg}</span>
+                <span className="whitespace-nowrap text-sm sm:text-base">
+                  Average Rating
+                </span>
+                <span className="font-extrabold text-2xl md:text-4xl">
+                  {ratingAvg}
+                </span>
               </div>
               <div className="flex flex-col gap-2">
                 <span>
@@ -69,23 +80,33 @@ const AppDetail = () => {
                     className="w-10 h-10 mr-2"
                   />
                 </span>
-                <span>Total Reviews</span>
-                <span className="font-extrabold text-4xl">{reviews}</span>
+                <span className="whitespace-nowrap text-sm sm:text-base">
+                  Total Reviews
+                </span>
+                <span className="font-extrabold text-2xl md:text-4xl ">
+                  {reviews}
+                </span>
               </div>
             </div>
-            <div className="mt-3">
-              <Link>
-                <button className="bg-green-400 text-white p-2 rounded-md">
-                  Install Now ({size})
-                </button>
-              </Link>
+            <div className="mt-3 text-center md:text-left">
+              <button
+                onClick={installApp}
+                disabled={isInstalled}
+                className={`text-white p-2 rounded-md transition-colors ${
+                  isInstalled
+                    ? "bg-green-400 cursor-not-allowed"
+                    : "bg-green-400 hover:bg-green-500"
+                }`}
+              >
+                {isInstalled ? "Installed" : `Install Now (${size})`}
+              </button>
             </div>
           </div>
         </div>
 
         <div className="space-y-3 py-5 my-4 border-b-2 border-gray-200">
           <h1 className="text-2xl font-semibold">Ratings</h1>
-          <div className="h-[300px]">
+          <div className="h-[200px] md:h-[300px]">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart layout="vertical" barCategoryGap="20%" data={chartData}>
                 <XAxis type="number" />
@@ -101,6 +122,19 @@ const AppDetail = () => {
           <div className="leading-8">{description}</div>
         </div>
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={4000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        transition={Bounce}
+      />
     </div>
   );
 };

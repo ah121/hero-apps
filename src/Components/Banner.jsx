@@ -1,5 +1,3 @@
-import React from "react";
-
 const Banner = () => {
   return (
     <div className="py-10 space-y-10 bg-base-200 px-3">
