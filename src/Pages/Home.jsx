@@ -20,7 +20,7 @@ const Home = () => {
         <div className="max-w-[1440px] mx-auto">
           <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4 py-10 px-3">
             {featuredApps.map((app) => (
-              <SingleCard app={app} />
+              <SingleCard app={app} key={app.id} />
             ))}
           </div>
         </div>

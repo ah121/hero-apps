@@ -1,9 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import useApps from "../Hook/useApps";
 import SingleCard from "../Components/SingleCard";
 
 const Apps = () => {
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
+  const [search, setSearch] = useState("");
+  const convertSearch = search.trim().toLocaleLowerCase();
+  const searchedApps = convertSearch
+    ? apps.filter((app) =>
+        app.title.toLocaleLowerCase().includes(convertSearch)
+      )
+    : apps;
+  if (searchedApps.length === 0) {
+    return (
+      <div>
+        <div className="flex flex-col justify-center items-center h-screen">
+          <h2 className="text-2xl font-bold mb-5">No Applications Found</h2>
+          <button
+            onClick={() => setSearch("")}
+            className="btn bg-gradient-to-r from-purple-600 to-purple-500 text-white"
+          >
+            Show All App
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-base-200 py-20">
@@ -16,7 +38,9 @@ const Apps = () => {
       <div className="max-w-[1440px] mx-auto p-3">
         <div className="flex items-center pt-10">
           <div className="flex-1">
-            <span className="font-bold">({apps.length}) Apps Found</span>
+            <span className="font-bold">
+              ({searchedApps.length}) Apps Found
+            </span>
           </div>
           <div className="flex-1 flex justify-end">
             <label className="input">
@@ -36,13 +60,19 @@ const Apps = () => {
                   <path d="m21 21-4.3-4.3"></path>
                 </g>
               </svg>
-              <input type="search" required placeholder="Search Apps" />
+              <input
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                type="search"
+                required
+                placeholder="Search Apps"
+              />
             </label>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4 py-10">
-          {apps.map((app) => (
-            <SingleCard app={app} />
+          {searchedApps.map((app) => (
+            <SingleCard app={app} key={app.id} />
           ))}
         </div>
       </div>
