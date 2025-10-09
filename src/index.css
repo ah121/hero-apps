@@ -4,3 +4,7 @@
 body {
   font-family: "Inter", sans-serif;
 }
+.active {
+  color: blueviolet;
+  text-decoration: underline;
+}

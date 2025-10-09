@@ -2,9 +2,9 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="py-10 space-y-10 bg-base-200">
+    <div className="py-10 space-y-10 bg-base-200 px-3">
       <div className="flex flex-col text-center items-center gap-5">
-        <h1 className="text-5xl font-bold">
+        <h1 className="text-4xl md:text-5xl font-bold">
           We Build <br />
           <span className="text-purple-600">Productive</span> Apps
         </h1>

@@ -1,0 +1,926 @@
+[
+  {
+    "image": "https://i.ibb.co.com/1GZsKvRK/whatsapp.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1002,
+    "description": "WhatsApp Messenger is a free, simple, secure messaging and calling app. It's used by over 2 billion people in more than 180 countries. It works across mobile and desktop, even on slow connections, with no subscription fees. Enjoy private, encrypted messaging with friends and family worldwide. Share photos, videos, documents, and Voice Messages. You can also make high-quality voice and video calls, facilitating clear communication whether you're across town or across the globe. The app features group chats, making it easy to stay in touch with your social circle or coordinate work plans securely. WhatsApp is continuously updated to introduce new features, including Status updates which disappear after 24 hours, and robust privacy settings that give you complete control over who sees your personal information. It is designed to be a reliable and fast way to communicate without the hassle of SMS fees. The platform also includes tools for small and medium businesses to interact directly with their customers efficiently.",
+    "size": "105 MB",
+    "reviews": "141M",
+    "ratingAvg": 4.2,
+    "downloads": "5B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 14100000
+      },
+      {
+        "name": "2 star",
+        "count": 7050000
+      },
+      {
+        "name": "3 star",
+        "count": 7050000
+      },
+      {
+        "name": "4 star",
+        "count": 28200000
+      },
+      {
+        "name": "5 star",
+        "count": 84600000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/whyryhK7/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1003,
+    "description": "Instagram is a global social media platform focused on visual content, allowing you to connect with friends, share your life, and explore diverse interests. You can post photos and videos to your feed, apply unique filters and editing tools, and share short, engaging videos called Reels. **Stories** allow you to post fleeting moments that vanish after 24 hours, perfect for spontaneous updates. The Explore tab provides personalized content recommendations, helping you discover new creators, businesses, and trends from around the world. Instagram's Direct Messages feature enables private communication, including video chat and disappearing messages. It is a powerful tool for visual storytelling, creative expression, and cultivating community. Users can follow topics, hashtags, and public figures, ensuring their feed is tailored to their passions. Furthermore, the Shopping feature seamlessly connects users with brands, allowing them to browse and purchase products directly from photos and videos within the app, making it a hub for both social interaction and e-commerce discovery.",
+    "size": "87 MB",
+    "reviews": "153M",
+    "ratingAvg": 4.0,
+    "downloads": "5B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 18360000
+      },
+      {
+        "name": "2 star",
+        "count": 9180000
+      },
+      {
+        "name": "3 star",
+        "count": 15300000
+      },
+      {
+        "name": "4 star",
+        "count": 30600000
+      },
+      {
+        "name": "5 star",
+        "count": 79560000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HThnM9CB/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 1004,
+    "description": "TikTok is the premier global destination for short-form mobile videos. It makes it easy for you to discover and create your own amazing original videos by providing easy-to-use tools to view and capture your daily moments. The app's core feature is the **'For You' feed**, which uses a highly sophisticated algorithm to deliver personalized content, making it effortlessly entertaining and addictive. You can enhance your videos with millions of free music clips and sounds, adding popular tracks or your own custom audio. Unleash your creativity with hundreds of special effects, filters, and AR objects. From comedy and dance to beauty and sports, TikTok hosts a vibrant community where creativity knows no bounds. The platform has become a major engine for trending sounds and viral challenges, driving pop culture globally. Users can engage through comments, stitches, and duets, fostering collaborative content creation. It is a dynamic platform where anyone can become a creator and instantly share their passion with an enormous global audience, making it a powerful tool for self-expression and discovery.",
+    "size": "95 MB",
+    "reviews": "51M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 3060000
+      },
+      {
+        "name": "2 star",
+        "count": 1530000
+      },
+      {
+        "name": "3 star",
+        "count": 4590000
+      },
+      {
+        "name": "4 star",
+        "count": 10200000
+      },
+      {
+        "name": "5 star",
+        "count": 31620000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/S7mCwhYB/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 1005,
+    "description": "Telegram is a cloud-based mobile and desktop messaging app focused on speed and security. It allows users to send messages, photos, videos, and files of any type (doc, zip, mp3, etc.). The platform supports optional end-to-end encrypted Secret Chats, which use a unique destruction timer. With server infrastructure distributed worldwide, Telegram connects people using the closest possible server, offering one of the fastest messaging experiences available. Users can create **supergroups** of up to 200,000 members and create channels for broadcasting to unlimited audiences. Telegram's unique feature is its extensive API and Bot ecosystem, enabling automated interactions, games, and services right within the chat interface. Unlike other apps, your chats are synced across all your devices seamlessly. It is designed to work even on the weakest mobile connections, making it a reliable choice globally. The app also emphasizes user control, with no ads or subscription fees, making it a truly privacy-first messaging solution that combines speed, encryption, and vast scalability for both private and public communication.",
+    "size": "45 MB",
+    "reviews": "11.2M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 560000
+      },
+      {
+        "name": "2 star",
+        "count": 336000
+      },
+      {
+        "name": "3 star",
+        "count": 672000
+      },
+      {
+        "name": "4 star",
+        "count": 2240000
+      },
+      {
+        "name": "5 star",
+        "count": 7392000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LdWLNJnf/spotify.png",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 1006,
+    "description": "Spotify is the world's leading music and podcast streaming service, offering millions of tracks and episodes. Whether you're at home, at the gym, or driving, you have instant access to a vast library of audio content. Discover new music with **personalized recommendations**, curated playlists based on your listening habits, and dynamic daily mixes. You can search for any artist, album, or genre and create your own perfect collection of music. Spotify Premium offers an ad-free experience, offline listening by downloading tracks, and high-quality audio. The platform is not just about music; it hosts thousands of popular and exclusive podcasts on every topic imaginable, from true crime to comedy. Its intuitive interface and seamless cross-device playback make it the ultimate audio companion. You can connect your account to speakers, cars, and wearables, making the transition between devices effortless. Spotify is constantly evolving its discovery features, ensuring you never run out of new sounds to explore and enjoy.",
+    "size": "42 MB",
+    "reviews": "36.8M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2208000
+      },
+      {
+        "name": "2 star",
+        "count": 1472000
+      },
+      {
+        "name": "3 star",
+        "count": 2576000
+      },
+      {
+        "name": "4 star",
+        "count": 7360000
+      },
+      {
+        "name": "5 star",
+        "count": 23184000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nsbsDvPs/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 1007,
+    "description": "Netflix is the world's leading subscription service for watching TV episodes and movies on your phone. This mobile application delivers a seamless streaming experience, allowing members to instantly watch thousands of titles from various genres, including award-winning original series, films, documentaries, and stand-up specials. With a Netflix membership, you get unlimited access to content anytime, anywhere. You can browse a constantly expanding catalog of thousands of titles and new episodes that are added regularly. The app is highly optimized for mobile viewing, featuring a Smart Downloads function that automatically downloads the next episode of a series you're watching, ensuring uninterrupted entertainment even when you lose connection. You can create up to five different profiles under a single account, allowing each member of the family to have personalized recommendations tailored to their taste. The app also includes strong parental controls and a dedicated Kids section to ensure a safe viewing environment for children. Simply download and start watching immediately on any device.",
+    "size": "58 MB",
+    "reviews": "35.2M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2112000
+      },
+      {
+        "name": "2 star",
+        "count": 1408000
+      },
+      {
+        "name": "3 star",
+        "count": 2464000
+      },
+      {
+        "name": "4 star",
+        "count": 7040000
+      },
+      {
+        "name": "5 star",
+        "count": 22176000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FkGWqZN8/amazon.png",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 1008,
+    "description": "The Amazon Shopping app lets you browse, search, get product details, read reviews, and purchase millions of products from the convenience of your mobile device. With the app, you get easy access to your cart, payment options, and shipping preferences, all while benefiting from the same personalized experience as on the full website. You can track your orders, manage your 1-Click settings, and access customer support. The app features powerful search tools, including **image search** (Search by Image) and barcode scanning, which allows you to quickly find products just by taking a photo or scanning a label. Users can easily compare prices and check availability with retailers across the platform. The app sends personalized alerts for Deals of the Day and Prime Exclusive offers, ensuring you never miss a great saving opportunity. Whether you're buying books, electronics, home goods, or groceries, the Amazon app provides a secure, fast, and feature-rich way to shop, anytime and anywhere, with reliable delivery tracking.",
+    "size": "65 MB",
+    "reviews": "16.4M",
+    "ratingAvg": 4.6,
+    "downloads": "500M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 656000
+      },
+      {
+        "name": "2 star",
+        "count": 492000
+      },
+      {
+        "name": "3 star",
+        "count": 984000
+      },
+      {
+        "name": "4 star",
+        "count": 3608000
+      },
+      {
+        "name": "5 star",
+        "count": 10660000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rGdjk1CM/word.png",
+    "title": "Microsoft Word",
+    "companyName": "Microsoft Corporation",
+    "id": 1009,
+    "description": "Microsoft Word is the indispensable word processing app for creating, editing, and viewing documents on your mobile device. It offers the familiar, high-quality interface and fidelity of the desktop version, ensuring your documents look exactly as intended across all platforms. The app supports full collaboration, allowing you to track changes, leave comments, and share documents with others in real-time, greatly enhancing productivity on the go. Word is optimized for touch, making it easy to navigate, edit, and insert elements like tables, images, and charts using just your finger. Seamless integration with **OneDrive** and SharePoint means you can access your files from anywhere, making it easy to pick up where you left off. The app includes a vast library of professional templates for resumes, reports, and flyers, helping you start projects quickly and with polished results. Word is an essential tool for students, professionals, and anyone who needs to manage documents with precision and ease while away from a traditional computer setup.",
+    "size": "109 MB",
+    "reviews": "11.5M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 575000
+      },
+      {
+        "name": "2 star",
+        "count": 345000
+      },
+      {
+        "name": "3 star",
+        "count": 690000
+      },
+      {
+        "name": "4 star",
+        "count": 2300000
+      },
+      {
+        "name": "5 star",
+        "count": 7590000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LhSyfT1X/adobe.png",
+    "title": "Adobe Acrobat Reader",
+    "companyName": "Adobe",
+    "id": 1010,
+    "description": "Adobe Acrobat Reader is the global standard for reliably viewing, annotating, and sharing PDF documents. This powerful mobile app lets you work with your PDFs anywhere, ensuring document fidelity and security. You can open and view all types of PDF content, including forms and multimedia elements. The app features robust tools for marking up documents, allowing you to highlight, underline, and add sticky notes or drawings. **Fill and Sign** functionality makes it incredibly easy to fill out digital forms, sign them electronically using your finger or stylus, and send them without printing a single page. Integration with Adobe Document Cloud and other cloud services like Google Drive allows for seamless access and storage of your files. The app also supports collaborative review, letting multiple users comment on a single document. Acrobat Reader is essential for students, professionals, and anyone who needs efficient, secure, and reliable PDF management on their mobile device, making paper-free workflows a reality.",
+    "size": "91 MB",
+    "reviews": "19.3M",
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 772000
+      },
+      {
+        "name": "2 star",
+        "count": 579000
+      },
+      {
+        "name": "3 star",
+        "count": 1158000
+      },
+      {
+        "name": "4 star",
+        "count": 4246000
+      },
+      {
+        "name": "5 star",
+        "count": 12545000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tpxRyFZB/zoom.png",
+    "title": "Zoom - One Platform to Connect",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 1011,
+    "description": "Zoom provides a seamless, high-quality, and reliable video conferencing experience for mobile users. It is a leading platform for business meetings, virtual classes, and connecting with friends and family globally. The app supports secure video and audio conferencing, collaboration, chat, and webinars. You can join a meeting with a single click, start instant meetings, or schedule future sessions right from your phone. Key features include **screen sharing** directly from your mobile device, allowing for easy presentation of documents, photos, and applications. The platform offers customizable virtual backgrounds and touch-up features to enhance your appearance. With strong end-to-end encryption, your communications remain private and secure. Zoom ensures clear, stable video and audio quality, even in low-bandwidth environments, making it a dependable choice for remote work and learning. It also supports cross-platform functionality, connecting users on Android, iOS, Windows, and Mac seamlessly, ensuring universal accessibility for all participants.",
+    "size": "67 MB",
+    "reviews": "14.2M",
+    "ratingAvg": 3.9,
+    "downloads": "500M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2130000
+      },
+      {
+        "name": "2 star",
+        "count": 1278000
+      },
+      {
+        "name": "3 star",
+        "count": 1704000
+      },
+      {
+        "name": "4 star",
+        "count": 3408000
+      },
+      {
+        "name": "5 star",
+        "count": 5680000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/sps4RTMx/duolingo.png",
+    "title": "Duolingo: Learn Languages Free",
+    "companyName": "Duolingo",
+    "id": 1012,
+    "description": "Duolingo is the world's most popular way to learn a new language. The app transforms language learning into a fun, addictive game, using short, bite-sized lessons to help you achieve fluency in Spanish, French, German, Japanese, and dozens more. Its scientifically proven teaching methods make learning effective and engaging. You earn points, race against the clock, and level up, turning your education into a motivating quest. Duolingo covers reading, writing, listening, and speaking skills, ensuring a comprehensive learning experience. The app’s signature feature is its **gamified interface**, which is designed to keep you motivated with streaks and leaderboards. Lessons are adapted to your individual learning style, providing instant feedback and error correction. Whether you're a beginner or looking to brush up on old skills, Duolingo offers a completely free way to learn a new language for travel, school, or personal enrichment. Join millions of users in making language learning an enjoyable daily habit, all while tracking your progress and competing with friends globally.",
+    "size": "34 MB",
+    "reviews": "15.1M",
+    "ratingAvg": 4.6,
+    "downloads": "500M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 604000
+      },
+      {
+        "name": "2 star",
+        "count": 453000
+      },
+      {
+        "name": "3 star",
+        "count": 906000
+      },
+      {
+        "name": "4 star",
+        "count": 3322000
+      },
+      {
+        "name": "5 star",
+        "count": 9815000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qVDCxyh/clash.png",
+    "title": "Clash of Clans",
+    "companyName": "Supercell",
+    "id": 1013,
+    "description": "Clash of Clans is a strategic, free-to-play mobile game where players build their own village, raise a clan, and compete in epic Clan Wars. You take on the role of a village chief, tasked with constructing an impenetrable defense using walls, cannons, bombs, and traps. Players train unique troops with multiple levels of upgrades, including Barbarians, Wizards, Dragons, and powerful Siege Machines. The core loop involves raiding other player villages to steal resources, which are essential for upgrading your buildings and army. The most engaging aspect is the **Clan War League**, where entire clans compete strategically for glory and valuable loot. The game is constantly evolving with new troops, spells, and events to keep the gameplay fresh and competitive. You can join millions of players worldwide, forge powerful alliances, and lead your clan to victory. Whether you're designing the ultimate base layout or strategizing for a major attack, Clash of Clans offers a deep blend of base-building and strategic combat.",
+    "size": "178 MB",
+    "reviews": "64.1M",
+    "ratingAvg": 4.5,
+    "downloads": "500M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 3205000
+      },
+      {
+        "name": "2 star",
+        "count": 1923000
+      },
+      {
+        "name": "3 star",
+        "count": 3846000
+      },
+      {
+        "name": "4 star",
+        "count": 12820000
+      },
+      {
+        "name": "5 star",
+        "count": 42306000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/WvWGYGDb/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 1014,
+    "description": "Pinterest is a visual discovery engine for finding ideas for all your projects and interests. It's a platform where you can discover, save, and organize inspiration from across the web in collections called **boards**. You can find billions of Pins with ideas for everything from delicious recipes and home decor ideas to fashion inspiration and travel planning. When you find Pins you love, you can save them to your boards to keep your ideas organized and easy to find. The app acts as a highly personalized visual search engine, showing you more of what you love the more you use it. You can also upload your own images to share your creations and ideas with the community. Pinterest makes it easy to go from inspiration to action, whether you're planning a wedding, decorating a room, or looking for a new hobby. It connects you with creators and their content, allowing you to click through to the source for tutorials, products, or detailed instructions, making it a practical tool for visual learners.",
+    "size": "85 MB",
+    "reviews": "10.4M",
+    "ratingAvg": 4.6,
+    "downloads": "500M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 416000
+      },
+      {
+        "name": "2 star",
+        "count": 312000
+      },
+      {
+        "name": "3 star",
+        "count": 624000
+      },
+      {
+        "name": "4 star",
+        "count": 2288000
+      },
+      {
+        "name": "5 star",
+        "count": 6760000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/N2RDnv6N/uber.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 1015,
+    "description": "Uber is the leading global platform that connects riders with drivers at the tap of a button. It provides a reliable, convenient, and safe way to get around the city. With the app, you can easily request a ride, track your driver's location in real-time, and securely pay with your preferred method, all within the application. You see the price estimate before you book, ensuring transparency in your travel costs. Safety features are paramount, including in-app emergency assistance, the ability to share your trip status with friends and family, and driver background checks. Beyond personal travel, Uber offers various options like **Uber Eats** for food delivery and Uber Freight for logistics. The app continuously optimizes its routing based on real-time traffic data to ensure the fastest journey possible. Whether you need a quick economy ride or a luxury vehicle, Uber provides a range of transportation solutions designed for every need and budget, transforming urban mobility globally.",
+    "size": "89 MB",
+    "reviews": "14.7M",
+    "ratingAvg": 4.4,
+    "downloads": "500M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 882000
+      },
+      {
+        "name": "2 star",
+        "count": 588000
+      },
+      {
+        "name": "3 star",
+        "count": 1029000
+      },
+      {
+        "name": "4 star",
+        "count": 2940000
+      },
+      {
+        "name": "5 star",
+        "count": 9261000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5WMHP9xN/gdrive.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 1016,
+    "description": "Google Drive is a secure cloud storage and file management solution that keeps all your files safe, organized, and accessible from any device. It provides generous free storage for your photos, stories, designs, drawings, recordings, and videos. You can easily access, view, and organize files, including Microsoft Office documents, PDFs, and photos. Sharing files and folders with others is simple, allowing you to grant viewing, commenting, or editing access. One of its most powerful features is its seamless integration with **Google Docs, Sheets, and Slides**, allowing for real-time collaborative editing. Drive's built-in search functionality is fast and robust, helping you find any file instantly, even by searching for text within scanned documents and images. Your files are automatically backed up, so you never have to worry about losing them. Drive is an essential tool for personal and professional use, ensuring your digital life is secure, centralized, and instantly available wherever your work takes you.",
+    "size": "25 MB",
+    "reviews": "20.1M",
+    "ratingAvg": 4.4,
+    "downloads": "5B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1206000
+      },
+      {
+        "name": "2 star",
+        "count": 804000
+      },
+      {
+        "name": "3 star",
+        "count": 1407000
+      },
+      {
+        "name": "4 star",
+        "count": 4020000
+      },
+      {
+        "name": "5 star",
+        "count": 12663000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Qwq6HMm/twitter.png",
+    "title": "Twitter / X",
+    "companyName": "X Corp.",
+    "id": 1017,
+    "description": "Twitter, now known as X, is the global platform for real-time public conversations and a source for breaking news. It allows users to read, post, and engage with short, timely messages known as posts. The platform is central to tracking trending topics, following world leaders, and getting unfiltered news directly from the source. The app's **'For You' timeline** uses an algorithm to show you a mix of posts from accounts you follow and recommended content based on your interests. You can express yourself with text, photos, videos, and live broadcasts. Direct Messages enable private conversations, while the search feature allows you to explore hashtags and topics instantly. X has evolved beyond simple text to become a major hub for video content and long-form articles. It is designed to be the fastest way to find out what's happening in the world right now, connecting you with millions of voices and diverse perspectives on every imaginable subject, making it an essential tool for public discourse and information discovery.",
+    "size": "130 MB",
+    "reviews": "21.6M",
+    "ratingAvg": 4.1,
+    "downloads": "500M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2160000
+      },
+      {
+        "name": "2 star",
+        "count": 1512000
+      },
+      {
+        "name": "3 star",
+        "count": 2160000
+      },
+      {
+        "name": "4 star",
+        "count": 4320000
+      },
+      {
+        "name": "5 star",
+        "count": 11448000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MkZhYxLz/excel.png",
+    "title": "Microsoft Excel",
+    "companyName": "Microsoft Corporation",
+    "id": 1018,
+    "description": "Microsoft Excel is the world's premier spreadsheet application, optimized for mobile devices to allow you to create, view, edit, and share data on the go. The app offers the full power of Excel, including complex formulas, charts, and data analysis tools, with a mobile-friendly interface. Seamless cloud connectivity allows you to access your spreadsheets from **OneDrive**, SharePoint, or Dropbox. Collaboration is simplified with the ability to share files and work with others in real-time, reviewing data, and adding comments without losing document integrity. Excel is essential for budgeting, tracking expenses, managing finances, and creating professional reports. The app supports hundreds of powerful functions, pivot tables, and conditional formatting to help you visualize and make sense of large datasets. Whether you are a business analyst, a student, or a casual user managing a household budget, the mobile version of Excel ensures you can maintain and manipulate your data with the precision and reliability expected from Microsoft.",
+    "size": "98 MB",
+    "reviews": "11.1M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 666000
+      },
+      {
+        "name": "2 star",
+        "count": 444000
+      },
+      {
+        "name": "3 star",
+        "count": 777000
+      },
+      {
+        "name": "4 star",
+        "count": 2220000
+      },
+      {
+        "name": "5 star",
+        "count": 7002000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DckKtD3/brave.png",
+    "title": "Brave Private Web Browser",
+    "companyName": "Brave Software, Inc.",
+    "id": 1019,
+    "description": "Brave is a lightning-fast, secure, and private web browser that blocks ads and tracking by default. It is designed to give users complete control over their browsing experience while significantly improving speed and reducing data usage. The built-in **Adblocker** ensures you are never bombarded with intrusive advertisements or trackers, leading to faster page load times and better privacy. Brave features HTTPS Everywhere, forcing encrypted connections whenever possible to maximize security. Its private browsing mode is enhanced with Tor integration, offering true anonymity for your most sensitive searches. A unique feature of Brave is the Basic Attention Token (BAT) system, which allows users to optionally view privacy-respecting ads and earn tokens as a reward. Brave focuses on reducing battery and data consumption, making it an ideal choice for mobile users. It’s an innovative browser that combines speed, robust security, and a unique model for rewarding users and content creators.",
+    "size": "70 MB",
+    "reviews": "1.8M",
+    "ratingAvg": 4.6,
+    "downloads": "100M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 72000
+      },
+      {
+        "name": "2 star",
+        "count": 54000
+      },
+      {
+        "name": "3 star",
+        "count": 108000
+      },
+      {
+        "name": "4 star",
+        "count": 396000
+      },
+      {
+        "name": "5 star",
+        "count": 1170000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q35C4sWM/drop.png",
+    "title": "Dropbox: Cloud Storage",
+    "companyName": "Dropbox, Inc.",
+    "id": 1020,
+    "description": "Dropbox is a leading cloud storage solution that simplifies the way you store, share, and collaborate on your files from anywhere. It offers a secure, centralized hub for all your photos, videos, documents, and creative work. Files you add to Dropbox are automatically synced and accessible across all your devices, making cross-platform work effortless. The app's core strength is its **file sharing and collaboration tools**, which allow you to easily send large files, gather feedback, and track changes in documents. Features like offline access let you work on files even without an internet connection, with changes syncing automatically once you're back online. Dropbox can automatically upload photos and videos from your phone's camera roll for secure backup. It provides a simple, powerful solution for backup, storage, and team productivity, ensuring your most important data is protected and always within reach. It is a critical tool for freelancers, small teams, and anyone needing reliable, organized cloud file management.",
+    "size": "75 MB",
+    "reviews": "3.3M",
+    "ratingAvg": 4.4,
+    "downloads": "500M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 198000
+      },
+      {
+        "name": "2 star",
+        "count": 132000
+      },
+      {
+        "name": "3 star",
+        "count": 231000
+      },
+      {
+        "name": "4 star",
+        "count": 660000
+      },
+      {
+        "name": "5 star",
+        "count": 2079000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/G4zd8m6c/candy.png",
+    "title": "Candy Crush Saga",
+    "companyName": "King",
+    "id": 1021,
+    "description": "Candy Crush Saga is the legendary match-three puzzle game that has captivated millions worldwide. Your goal is to swap and match colorful candies in consecutive rows of three or more to blast them off the board. The game features thousands of sweet levels, with new ones added every two weeks, ensuring the fun never ends. You can utilize special boosters and striped, wrapped, or color bomb candies to clear challenging levels and achieve high scores. The game is designed to be highly addictive and rewarding, with satisfying sound effects and delightful animations. Its most engaging feature is the social element, allowing you to connect with friends, compare scores on leaderboards, and share lives. **Offline mode** ensures you can keep crushing candies even when you don't have an internet connection, making it perfect for commuting or travel. Candy Crush Saga offers a perfect blend of simple mechanics and increasingly complex puzzles, providing hours of sweet, brain-teasing entertainment for all ages.",
+    "size": "79 MB",
+    "reviews": "40.9M",
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1636000
+      },
+      {
+        "name": "2 star",
+        "count": 1227000
+      },
+      {
+        "name": "3 star",
+        "count": 2454000
+      },
+      {
+        "name": "4 star",
+        "count": 9002000
+      },
+      {
+        "name": "5 star",
+        "count": 26581000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BH77L754/subway.png",
+    "title": "Subway Surfers",
+    "companyName": "SYBO Games",
+    "id": 1022,
+    "description": "Subway Surfers is an exhilarating, endless runner game where you must dash as fast as you can to escape the grumpy Inspector and his dog. Players take control of Jake, Tricky & Fresh, surfing the subway tracks to avoid trains, obstacles, and barriers. The gameplay is fast-paced, requiring quick reflexes to swipe left, right, jump, and roll to collect coins and power-ups. You can use a variety of gadgets like the **Hoverboard**, which provides temporary crash protection, and the Jetpack, which allows you to fly above the tracks and collect coins. Coins are used to unlock new characters and upgrade power-ups. The game features fresh content with monthly Themed Hunts, which take the game to a different major city around the world, adding new characters and unique items to collect. Subway Surfers is known for its vibrant HD graphics and simple yet addictive one-touch controls, making it one of the most downloaded mobile games ever. It offers endless, high-octane fun for players looking for a quick, exciting challenge.",
+    "size": "153 MB",
+    "reviews": "40.6M",
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 2030000
+      },
+      {
+        "name": "2 star",
+        "count": 1218000
+      },
+      {
+        "name": "3 star",
+        "count": 2436000
+      },
+      {
+        "name": "4 star",
+        "count": 8120000
+      },
+      {
+        "name": "5 star",
+        "count": 26796000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hFk2Ghzd/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 1023,
+    "description": "Snapchat is a fast and fun way to share moments with friends, family, and the world through pictures and short videos, known as Snaps. The app opens directly to the camera, encouraging spontaneous sharing of what's happening right now. Its signature feature is the vast library of **Lenses** and Filters, which use augmented reality to transform your face and surroundings in real-time. Snaps, Chats, and Stories are designed to disappear by default, emphasizing ephemeral communication. The Discover feed features curated content from major publishers and creators, providing a mix of news and entertainment. The Map feature allows you to see where your friends are and what's happening around the world. Snapchat also supports video and voice calls, and its unique Bitmoji avatars allow for personalized self-expression in a cartoon style. It's a highly engaging platform that prioritizes visual communication and instant sharing over permanent posting, making social interaction lighter and more playful.",
+    "size": "101 MB",
+    "reviews": "18.3M",
+    "ratingAvg": 4.1,
+    "downloads": "1B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1830000
+      },
+      {
+        "name": "2 star",
+        "count": 1281000
+      },
+      {
+        "name": "3 star",
+        "count": 1830000
+      },
+      {
+        "name": "4 star",
+        "count": 3660000
+      },
+      {
+        "name": "5 star",
+        "count": 9738000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TMfx1yb2/waze.png",
+    "title": "Waze Navigation & Live Traffic",
+    "companyName": "Waze",
+    "id": 1024,
+    "description": "Waze is the world’s largest community-based traffic and navigation app. It’s a dynamic co-pilot that helps millions of drivers save time and gas by providing real-time routing based on live traffic reports from other drivers. Users actively report accidents, police traps, road closures, and hazards, allowing Waze to provide instant alerts and optimize your route on the fly. Its turn-by-turn voice navigation is clear and reliable. A key differentiating feature is its **community focus**, where the collective knowledge of drivers is harnessed to create the most accurate map and traffic data possible. Waze also provides estimated arrival times that are consistently accurate due to its real-time data input. It offers fun, customizable voice directions and integrates with music apps, allowing you to control your audio without leaving the navigation screen. Waze makes every drive less stressful by proactively warning you about delays and finding the best path to your destination, even incorporating cheaper gas station prices along your route.",
+    "size": "134 MB",
+    "reviews": "9.9M",
+    "ratingAvg": 4.3,
+    "downloads": "100M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 693000
+      },
+      {
+        "name": "2 star",
+        "count": 495000
+      },
+      {
+        "name": "3 star",
+        "count": 792000
+      },
+      {
+        "name": "4 star",
+        "count": 2178000
+      },
+      {
+        "name": "5 star",
+        "count": 5742000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/x8Jg14jm/tinder.png",
+    "title": "Tinder",
+    "companyName": "Tinder",
+    "id": 1025,
+    "description": "Tinder is the world's most popular app for meeting new people. It is a location-based social search mobile app that facilitates communication between interested users, allowing them to chat and potentially meet in person. The core mechanic is the **'Swipe Right'** feature to like a user's profile or 'Swipe Left' to pass. When two users swipe right on each other, it results in a 'Match,' enabling them to start a conversation. Tinder offers a fun, low-pressure way to explore dating and socializing in your area or around the world with the Passport feature. The app emphasizes safety with features like Photo Verification and In-App Video Chat. Users can personalize their profiles with photos, short bios, and interests to showcase their personality. Whether you are looking for a casual chat, a date, or simply expanding your social network, Tinder provides a straightforward, highly visual, and efficient platform that has redefined the world of online socializing and dating for millions globally.",
+    "size": "66 MB",
+    "reviews": "11.6M",
+    "ratingAvg": 4.0,
+    "downloads": "100M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1160000
+      },
+      {
+        "name": "2 star",
+        "count": 812000
+      },
+      {
+        "name": "3 star",
+        "count": 1160000
+      },
+      {
+        "name": "4 star",
+        "count": 2320000
+      },
+      {
+        "name": "5 star",
+        "count": 6148000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RpCgV0Xy/booking.png",
+    "title": "Booking.com",
+    "companyName": "Booking.com",
+    "id": 1026,
+    "description": "Booking.com is the world’s leading travel app, making it easy to book hotels, hostels, apartments, and vacation rentals worldwide. With millions of properties to choose from, you can quickly find the perfect place to stay for any budget or trip type. The app offers powerful search filters, allowing you to narrow down options by price, rating, location, and specific amenities. Key features include **instant confirmation**, offline access to booking details, and the ability to manage your reservations on the go. You can read verified, honest reviews from real travelers to make informed decisions. The app often provides mobile-only deals, offering better prices than what you find elsewhere. It’s designed to be a comprehensive travel planner, allowing you to save your favorite spots, compare prices, and manage all aspects of your trip, from accommodation to car rentals. Booking.com ensures a secure and seamless booking experience, backed by 24/7 customer support in multiple languages, making travel planning effortless and reliable.",
+    "size": "102 MB",
+    "reviews": "7.3M",
+    "ratingAvg": 4.6,
+    "downloads": "100M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 292000
+      },
+      {
+        "name": "2 star",
+        "count": 219000
+      },
+      {
+        "name": "3 star",
+        "count": 438000
+      },
+      {
+        "name": "4 star",
+        "count": 1606000
+      },
+      {
+        "name": "5 star",
+        "count": 4745000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vCdy64BM/pshop.png",
+    "title": "Adobe Photoshop Express",
+    "companyName": "Adobe",
+    "id": 1027,
+    "description": "Adobe Photoshop Express is a free, powerful, and easy-to-use photo editor designed for quick and beautiful transformations on your mobile device. It offers a wide range of essential editing tools, including cropping, rotating, red-eye removal, and auto-correct features that instantly fix exposure, contrast, and white balance. The app includes a vast library of over 80 **filters and effects** (called 'Looks') to give your photos a professional finish with a single tap. Advanced features allow you to remove blemishes, reduce noise, and even apply collages to showcase multiple photos creatively. Photoshop Express supports RAW file formats, giving photographers maximum quality control. Seamless integration with Adobe Creative Cloud and social media platforms makes sharing your edited masterpieces effortless. It is the perfect tool for users who need a fast, robust, and intuitive editor to enhance their social media photos, touch up portraits, or correct minor imperfections while on the go, bringing the power of Photoshop to your pocket.",
+    "size": "127 MB",
+    "reviews": "11.2M",
+    "ratingAvg": 4.6,
+    "downloads": "100M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 448000
+      },
+      {
+        "name": "2 star",
+        "count": 336000
+      },
+      {
+        "name": "3 star",
+        "count": 672000
+      },
+      {
+        "name": "4 star",
+        "count": 2464000
+      },
+      {
+        "name": "5 star",
+        "count": 7280000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gZftWT65/weather.png",
+    "title": "AccuWeather: Weather Radar",
+    "companyName": "AccuWeather, Inc.",
+    "id": 1028,
+    "description": "AccuWeather provides precise, local weather forecasts and severe weather alerts for anywhere in the world. It’s a comprehensive tool for planning your day, trip, or week with confidence. The app is famous for its **MinuteCast® feature**, which provides minute-by-minute precipitation forecasts for the next two hours, hyper-localized to your exact street address. You get real-time weather alerts, including warnings for snow, ice, rain, wind, and severe thunderstorms. The interactive radar map shows current and future radar, allowing you to track storms in your area. AccuWeather offers detailed hourly and daily forecasts, including UV index, humidity, visibility, and air quality. Customization options allow you to choose between various metrics and receive tailored notifications. Whether you are a daily commuter, an outdoor enthusiast, or simply planning your weekend, AccuWeather provides the detailed, reliable data you need to stay safe and prepared for changing conditions, making it one of the most trusted weather resources available on mobile devices.",
+    "size": "55 MB",
+    "reviews": "2.8M",
+    "ratingAvg": 4.5,
+    "downloads": "50M+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 140000
+      },
+      {
+        "name": "2 star",
+        "count": 84000
+      },
+      {
+        "name": "3 star",
+        "count": 168000
+      },
+      {
+        "name": "4 star",
+        "count": 560000
+      },
+      {
+        "name": "5 star",
+        "count": 1848000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xtSq15n6/gmail.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 1029,
+    "description": "Gmail is Google's secure and intelligent email service, providing a robust, mobile-optimized experience for managing your inbox. The app features a clean, intuitive interface that organizes your conversations automatically into social, promotions, and primary categories, helping you focus on what matters most. Its powerful **spam filtering** keeps unwanted messages out of your inbox, while the smart reply feature suggests quick responses to speed up communication. Gmail supports multiple accounts, allowing you to easily switch between personal, work, and school emails without signing in and out. The app offers real-time notifications, offline support, and integrated video calls via Google Meet. With ample free storage, you rarely have to delete messages. Gmail is seamlessly integrated with the Google ecosystem, including Drive and Calendar, making it a central hub for productivity. It is a reliable, fast, and feature-rich email client that brings security and intelligence to your everyday communications.",
+    "size": "48 MB",
+    "reviews": "14.5M",
+    "ratingAvg": 4.3,
+    "downloads": "10B+",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1015000
+      },
+      {
+        "name": "2 star",
+        "count": 725000
+      },
+      {
+        "name": "3 star",
+        "count": 1160000
+      },
+      {
+        "name": "4 star",
+        "count": 2900000
+      },
+      {
+        "name": "5 star",
+        "count": 8700000
+      }
+    ]
+  }
+]
