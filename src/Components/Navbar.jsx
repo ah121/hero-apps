@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { TbBrandGithubFilled } from "react-icons/tb";
 
 const Navbar = () => {
@@ -39,10 +39,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="flex gap-3 items-center text-xl text-purple-600">
+          <Link
+            to="/"
+            className="flex gap-3 items-center text-xl text-purple-600"
+          >
             <img className="w-10 h-10" src="/logo.png" alt="LOGO" />
-            <span>HERO.IO</span>
-          </a>
+            <span>HERO APPS</span>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
