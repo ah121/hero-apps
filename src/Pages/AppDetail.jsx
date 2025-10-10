@@ -9,6 +9,7 @@ import {
 import { Bounce, ToastContainer } from "react-toastify";
 import useAppLogic from "../Hook/useAppLogic";
 import { useNavigate } from "react-router";
+import Spinner from "../Components/Spinner";
 const AppDetail = () => {
   const {
     image,
@@ -26,8 +27,11 @@ const AppDetail = () => {
     appExists,
   } = useAppLogic();
   const navigate = useNavigate();
+  if (loading) {
+    return <Spinner />;
+  }
   if (!loading && appExists === false) {
-    navigate("/error");
+    return navigate("/error");
   }
   return (
     <div className="bg-base-200">

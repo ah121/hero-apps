@@ -2,7 +2,7 @@ import { Link } from "react-router";
 const SingleCard = ({ app }) => {
   return (
     <Link to={`/apps/${app.id}`}>
-      <div className="bg-white p-4 shadow-md rounded-md">
+      <div className="bg-white p-4 shadow-md rounded-md hover:scale-y-105">
         <div className="flex flex-col gap-3">
           <figure>
             <img

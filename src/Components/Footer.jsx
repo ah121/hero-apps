@@ -4,16 +4,13 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className=" bg-black text-white p-10 flex flex-col gap-5 ">
+    <footer className=" bg-base-300 p-10 flex flex-col gap-5 ">
       <div className="max-w-[1440px] mx-auto w-full">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <NavLink
-            to="/"
-            className="btn btn-ghost hover:bg-neutral text-xl text-purple-600"
-          >
+        <div className="flex flex-col md:flex-row justify-between items-center gap-5">
+          <a className="flex gap-3 items-center text-xl text-purple-600">
             <img className="w-10 h-10" src="/logo.png" alt="LOGO" />
-            HERO.IO
-          </NavLink>
+            <span>HERO.IO</span>
+          </a>
           <div className="flex flex-col gap-3">
             <h1>Social Links</h1>
             <div className="flex justify-between">
@@ -26,6 +23,14 @@ const Footer = () => {
               <span className="p-1 rounded-full bg-white">
                 <FaFacebookF style={{ color: "black" }} />
               </span>
+            </div>
+          </div>
+          <div className="">
+            <h1 className="font-semibold text-center">Services</h1>
+            <div className="flex gap-4 text-gray-500">
+              <h6>Branding</h6>
+              <h6>Design</h6>
+              <h6>Marketing</h6>
             </div>
           </div>
         </div>

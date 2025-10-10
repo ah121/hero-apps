@@ -39,10 +39,10 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <NavLink to="/" className="btn btn-ghost text-xl text-purple-600">
+          <a className="flex gap-3 items-center text-xl text-purple-600">
             <img className="w-10 h-10" src="/logo.png" alt="LOGO" />
-            HERO.IO
-          </NavLink>
+            <span>HERO.IO</span>
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
