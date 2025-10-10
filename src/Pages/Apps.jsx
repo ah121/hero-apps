@@ -1,20 +1,37 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useApps from "../Hook/useApps";
 import SingleCard from "../Components/SingleCard";
 import Spinner from "../Components/Spinner";
 const Apps = () => {
   const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
-  const convertSearch = search.trim().toLocaleLowerCase();
-  const searchedApps = convertSearch
-    ? apps.filter((app) =>
-        app.title.toLocaleLowerCase().includes(convertSearch)
-      )
+  const [inputSearch, setinputSearch] = useState("");
+  const [isSearching, setIsSearching] = useState(false);
+  useEffect(() => {
+    if (search.length > 0) {
+      setIsSearching(true);
+    } else {
+      setIsSearching(false);
+      setinputSearch("");
+      return;
+    }
+    const spinnerHandler = setTimeout(() => {
+      setinputSearch(search.trim().toLocaleLowerCase());
+      setIsSearching(false);
+    }, 400);
+
+    return () => {
+      clearTimeout(spinnerHandler);
+    };
+  }, [search]);
+  const searchedApps = inputSearch
+    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(inputSearch))
     : apps;
+
   if (loading) {
     return <Spinner />;
   }
-  if (searchedApps.length === 0) {
+  if (searchedApps.length === 0 && !isSearching) {
     return (
       <div>
         <div className="flex flex-col justify-center items-center h-screen">
@@ -76,7 +93,7 @@ const Apps = () => {
             </label>
           </div>
         </div>
-        {loading ? (
+        {loading || isSearching ? (
           <Spinner />
         ) : (
           <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4 py-10">
